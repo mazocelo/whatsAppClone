@@ -1,0 +1,21 @@
+{
+  "name": "curso-javascript-projeto-whatsapp-clone",
+  "version": "1.0.0",
+  "description": "[![Hcode Treinamentos](https://www.hcode.com.br)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server"
+  },
+  "author": "Marcelo - hcode",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^7.24.0",
+    "pdfjs-dist": "^2.5.207",
+    "webpack": "^3.1.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^2.11.5"
+  }
+}
